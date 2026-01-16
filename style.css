@@ -149,6 +149,11 @@ html, body {
     text-align: center;
     font-size: 2em;
 }
+    .btn.btn-primary {
+        font-size: 25px;
+                margin-top: -20px !important;
+
+    }
 
 .spanaoneclassno {
     color: transparent;
@@ -222,4 +227,77 @@ footer {
     background-color: #ffffff !important;
     color: #520808 !important;
     height: 50%;
+}
+
+@media (max-width: 600px) {
+    .justagenius {
+        display: none;
+    }
+
+    .firs1tp{
+        font-size: 25px;
+    }
+
+    #firstcounter {
+        font-size: 28px !important;
+    }    
+    #secondcounter {
+        font-size: 28px !important;
+    }
+
+    .second {
+        display: none;
+    }
+
+    .nachalo {
+        margin: 0 auto;
+        background-size: 200%;
+    }
+
+    .higerwithus {
+        width: 300px;
+        height: 400px;
+    }
+
+    .aboutbad {
+        display: none;
+    }
+
+    .li_1 {
+        display: none;
+    }
+
+    .row1 {
+        display: block;
+        justify-content: space-between;
+        margin: -14px;
+    }
+
+    .col-md-41 {
+        padding: 25px 0px;
+    }
+
+    .card {
+        margin: 0 auto;
+        width: 350px !important;
+    }
+
+    .oneofftheimg {
+        width: 350px !important;
+        height: 450px !important;
+        margin: 0 auto !important;
+                display: block;
+
+    }
+
+    .col-md-65 {
+                margin: 0 auto !important;
+
+        display: block;
+    }
+
+    .btn.btn-primary {
+        font-size: 25px;
+        margin-top: -20px !important;
+    }
 }
