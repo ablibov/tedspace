@@ -230,8 +230,13 @@ footer {
 }
 
 @media (max-width: 600px) {
-    .justagenius {
-        display: none;
+    .parnetners {
+        width: 390px;
+        height: 250px;
+    }
+
+    .hilight {
+        font-size: 55px;
     }
 
     .firs1tp{
@@ -245,10 +250,6 @@ footer {
         font-size: 28px !important;
     }
 
-    .second {
-        display: none;
-    }
-
     .nachalo {
         margin: 0 auto;
         background-size: 200%;
@@ -260,11 +261,16 @@ footer {
     }
 
     .aboutbad {
-        display: none;
+        z-index: 9999;
+        color: #520808;
+        margin-left: 25px !important;
+        margin-top: 195px !important;
     }
 
     .li_1 {
-        display: none;
+        font-size: 15px;
+        font-weight: 100;
+        margin-top: -115px;
     }
 
     .row1 {
